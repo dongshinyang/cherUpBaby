@@ -10,5 +10,6 @@ public class Date {
 		
 		java.sql.Date SqlDate = new java.sql.Date(System.currentTimeMillis());
 		System.out.println(SqlDate);
+		
 	}
 }
