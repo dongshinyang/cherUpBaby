@@ -29,6 +29,7 @@ public class Char_String {
     System.out.printf("v4 = %c\n", v4); 	 v4 = 공
     System.out.printf("v4 = %d\n", (int)v4); v4 = 44277
 
+    System.out.printf("A == 65 ? %b\n", 'A' == 65); true
     
       char[] ch = new char[8];
 	  ch[0] ='c';   //	c
