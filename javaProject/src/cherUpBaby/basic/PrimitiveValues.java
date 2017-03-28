@@ -50,7 +50,7 @@ public class PrimitiveValues {
 	    System.out.println("Hello, \tworld!"); // tab
 	    System.out.println("Hello, \nworld!"); // line feed
 	    System.out.println("Hello, \fworld!"); // form feed
-	    System.out.println("Hello, \rworld!"); //carrage return
+	    System.out.println("Hello, \rworld!"); // carriage return
 	    System.out.println("Hello, \"world!"); // double quote
 	    System.out.println("Hello, \'world!"); // single quote
 	    System.out.println("Hello, \\world!"); // backslash
