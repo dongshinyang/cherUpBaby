@@ -1,6 +1,15 @@
 package cherUpBaby.basic;
 
 public class Char_String {
+	public static void main(String[] args) {
+		
+		String s = "string";
+		char[] chars = s.toCharArray();
+		for (int i = 0; i <chars.length; i++) {
+			System.out.println(chars[i]);
+		}
+		
+	}
 
 }
 
@@ -43,7 +52,32 @@ public class Char_String {
 	  
 	  for (char ch1 : ch) {
 		  System.out.println(ch1);
-	  }
+	  } 
+	  
+ * e.g. String to charArray  
+ *   String ch = "string";
+ * 	 char[] chars = s.toCharArray();
+ *   => [s][t][r][i][n][g] 
+ *   
+ * e.g. UpperCase, LowerCase  
+ *    char[] chars = s.toUpperCase().toCharArray();
+ *   => [S][T][R][I][N][G]  
  * 
  * 
+ * 
+ * 
+ * e.g. argument
+ *   int value = Integer.parseInt(args[0]);
+ *   char[] chars = args[1].toCharArray();
+ *   
+ * 	  
+ *   
+ *   
+ *   
+ *   
+ *   
+ *   
+ *   
+ *   
+ *   
  * */
