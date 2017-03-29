@@ -25,8 +25,11 @@ class C {}
 
  * when compiling if it is not same with default character set
  * Using -encoding option, you must tell the compiler to that thing
+ * e.g. : javac classification.java
  * e.g. : javac -encoding UTF-8 classification.java
-
+ * e.g. : javac -d bin src/cherUpBaby/classification.java
+ * e.g. : javac -encoding UTF-8 -d bin src/cherUpBaby/classification.java
+ * 
  * after compiling, there are  4.class
  * e.g. : Classification.class
  *                     A.class

@@ -54,6 +54,21 @@ public class PrimitiveValues {
 	    System.out.println("Hello, \"world!"); // double quote
 	    System.out.println("Hello, \'world!"); // single quote
 	    System.out.println("Hello, \\world!"); // backslash
+	    
+	    System.out.println(74); // 기본은 10진수
+	    System.out.println(0112); // 정수가 0으로 시작하면 8진수
+	    System.out.println(0b1001010); // 0b 또는 0B로 시작하면 2진수
+	    System.out.println(0B1001010); //
+	    System.out.println(0x4A); // 0x 또는 0X로 시작하면 16진수. 대소문자 구분안함.
+	    System.out.println(0x4a); // 0x를 많이 사용. 숫자는 대문자를 주로 사용.
+	    System.out.println(0X4A);
+	    System.out.println(0X4a);
+	    System.out.println(0x004a); // 16진수는 앞에 0이 몇 개 오더라도 상관없다. 
+	    
+	    System.out.println(97654321);
+	    System.out.println(9765_4321); // 읽기 쉽도록 _ 문자를 사용하여 숫자를 분리할 수 있다.
+	    System.out.println(97_654_321);
+	    System.out.println(0b0100_1010);
 	}
 
 }
